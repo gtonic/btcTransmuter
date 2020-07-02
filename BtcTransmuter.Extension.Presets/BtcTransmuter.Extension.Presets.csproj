@@ -12,4 +12,10 @@
         <ProjectReference Include="..\BtcTransmuter.Extension.NBXplorer\BtcTransmuter.Extension.NBXplorer.csproj" />
         <ProjectReference Include="..\BtcTransmuter.Extension.Timer\BtcTransmuter.Extension.Timer.csproj" />
     </ItemGroup>
+    <ItemGroup>
+      <Content Update="Views\ACD\Create.cshtml">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
 </Project>

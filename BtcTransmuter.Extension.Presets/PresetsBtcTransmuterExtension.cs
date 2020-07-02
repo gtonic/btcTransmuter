@@ -15,6 +15,7 @@ namespace BtcTransmuter.Extension.Presets
             serviceCollection.AddTransient<ITransmuterPreset, BTCPayEmailReceiptsController>();
             serviceCollection.AddTransient<ITransmuterPreset, FiatExchangeConversionController>();
             serviceCollection.AddTransient<ITransmuterPreset, DCAController>();
+            serviceCollection.AddTransient<ITransmuterPreset, ACDController>();
         }
     }
 }
